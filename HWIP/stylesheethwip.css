@@ -16,3 +16,42 @@ border-radius: 10px;
 img {
     height: auto; width: 450px;
 }
+
+.weatherdiv {
+    display: flex;
+    justify-content: space-between;
+background-color: rgb(161, 161, 224);
+
+}
+#weathermilan {
+    display: flex;
+color: solid red;
+background-color: grey;
+width:200px;
+    height: 200px;
+    border: 10px;    
+}
+
+#columnsparent {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+.threecolumns {
+display: flex;
+padding: 4px;
+text-align: center;
+display: block;
+border: 20px;
+border-color: white;
+color:white;
+background-color: green;
+flex-grow: 1;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+}
