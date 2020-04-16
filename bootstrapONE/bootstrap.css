@@ -23,7 +23,11 @@ text-align: center;
 }
 .container>ul {
     margin-top: 40px;
+    
 }
-ul {
+.ul {
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
 }
